@@ -1,0 +1,90 @@
+
+
+.container .line {
+    line-height: 30px;
+    background-color: #f7f7f8;
+    padding: 0 20px ;
+    margin: 20px 0;
+    display: none;
+}
+
+.line img{
+    margin : 6px 10px ;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.main .brands {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    line-height: 40px;
+    margin-right: 1%;
+    border: 2px inset #2D6A4F; 
+    border-radius: 5px;
+}
+
+.container .main .brands span {
+    text-align: end;
+    padding-right: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.container .main .brands >span:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.container .main .brands span:first-child{
+    font-weight: 500;
+    font-size: 2rem;
+    color:  #2B4F71;
+    cursor: auto;
+}
+.container .main .brands >span:first-child:hover{
+    text-decoration: none;
+    color:  #2B4F71;
+}
+
+.cards {
+    width: 79%;
+    margin: 0;
+}
+
+.card {
+    margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        position: relative;
+    }
+
+    .container .line{
+        display: block;
+    }
+
+   .cards{
+        flex-basis: 100%;
+        width:100%;
+    }
+
+    .container .main .brands{
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        height: fit-content;
+        display: none;
+        background-color: white;
+       box-shadow: 10px 10px 123px rgba(128, 128, 128, 0.25);
+    }
+} 

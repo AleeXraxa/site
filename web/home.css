@@ -1,0 +1,36 @@
+/* latest items */
+.latest-items {
+    height: auto;
+    margin: 20px;
+}
+
+.h2 {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btnd {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btns {
+    border: none;
+    background-color: #2B4F71;
+    margin: 2rem;
+    font-size: 1.3rem;
+    width:8rem;
+    height:3rem;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btns:hover {
+    background-color: #fff;
+    color: black;
+    border: #2B4F71 2px solid;
+}
+
